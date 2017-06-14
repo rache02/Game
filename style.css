@@ -1,6 +1,6 @@
 .gameSquare {
-  height: auto;
-  width: auto;
+  height: 309px;
+  width: 309px;
 }
 
 div {
@@ -10,5 +10,5 @@ div {
   display: inline-block;
   margin: -2px;
   overflow: hidden;
-  background-color: green;
+  /*background-color: green;*/
 }
