@@ -4,7 +4,7 @@
 
 Let's start out with something fun - **a game!**
 
-Everyone will get a chance to **be creative**, and work through some really **tough programming challenges** – Let's start out with something fun - a game! We'll be making **tic tac toe** (knots and crosses). What a nice surprise! But it's up to you to come up with a fun and interesting approach to this classic game. 
+Everyone will get a chance to **be creative**, and work through some really **tough programming challenges** – Let's start out with something fun - a game! We'll be making **tic tac toe** (knots and crosses). What a nice surprise! But it's up to you to come up with a fun and interesting approach to this classic game.
 
 **You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
 
@@ -15,10 +15,10 @@ Everyone will get a chance to **be creative**, and work through some really **to
 
 Your app must:
 
-* **Render a game in the browser**
-* **Switch turns** between more than one player
-* **Design logic for winning** & **visually display which player won**
-* **Include separate HTML / CSS / JavaScript files**
+* **Render a game in the browser** (DONE)
+* **Switch turns** between more than one player (DONE)
+* **Design logic for winning** & **visually display which player won** (NOT DONE)
+* **Include separate HTML / CSS / JavaScript files** (YES)
 * Stick with **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
 * Use **Javascript** for **DOM manipulation**
 * **Deploy your game online**, where the rest of the world can access it
@@ -40,7 +40,7 @@ Your app must:
 These are for extra credit! DON'T focus on these until you've hit the core requirements.
 
 * Keep track of multiple game rounds with a win counter
-* Allow game customizable options, time limits, board size, game rounds, name & profiles etc  
+* Allow game customizable options, time limits, board size, game rounds, name & profiles etc
 * Allow players to customize their token (X, O, name, picture, avatar etc)
 * Use timers to display "waiting..." messages while users are waiting to be matched
 * Get inventive with your styling ** research CSS effects, animations or HTML canvas API to spiff things up

@@ -3,24 +3,27 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <title>Tic Tac Toe</title>
   </head>
 
   <body>
-    <div class="background">
-      <h1>Tic Tac Code</h1>
-      <div class='gameSquare'>
-        <div class= 's0'></div>
-        <div class= 's1'></div>
-        <div class= 's2'></div>
-        <div class= 's3'></div>
-        <div class= 's4'></div>
-        <div class= 's5'></div>
-        <div class= 's6'></div>
-        <div class= 's7'></div>
-        <div class= 's8'></div>
-      </div>
+    <h1>Tic Tac Code</h1>
+    <div class='gameSquare'>
+      <div class= 's' data-index='0'>1</div>
+      <div class= 's' data-index='1'>2</div>
+      <div class= 's' data-index='2'>3</div>
+      <div class= 's' data-index='3'>4</div>
+      <div class= 's' data-index='4'>5</div>
+      <div class= 's' data-index='5'>6</div>
+      <div class= 's' data-index='6'>7</div>
+      <div class= 's' data-index='7'>8</div>
+      <div class= 's' data-index='8'>9</div>
     </div>
+    <p class= player1>Player1 Wins: <span id='numWinX'>0</span></p>
+    <p class= player2>Player2 Wins: <span id='numWinO'>0</span></p>
+    <p class= winner></p>
+    <button type="button" name="button">Restart</button>
   <script type="text/javascript" src = 'main.js'></script>
   </body>
 </html>
